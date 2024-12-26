@@ -1,6 +1,5 @@
 Dưới đây là hướng dẫn cấu hình **reverse proxy** cho hai website WordPress và Laravel sử dụng Nginx và Apache, PHP 8.1, MySQL và phpMyAdmin, với các domain là `wpadmin.nguyenbinh.site` và `laravel.nguyenbinh.site`. Mã cấu hình được viết trong file `.md` để bạn dễ dàng theo dõi và thực hiện.
 
-```md
 # Hướng dẫn cấu hình Reverse Proxy cho 2 website WordPress và Laravel với Nginx và Apache
 
 ## 1. Cài đặt Apache
