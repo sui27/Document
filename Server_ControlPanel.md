@@ -78,3 +78,29 @@
 | Hỗ trợ Git                       | Không            | Không              | Có                 | Không            |
 
 ---
+
+## **Tính năng nổi bật giúp các Control Panel hỗ trợ tốt cho WordPress**
+
+| Tiêu chí                         | **DirectAdmin**                           | **aaPanel**                               | **CyberPanel**                             | **VestaCP**                              |
+|----------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|------------------------------------------|
+| **Cài đặt WordPress tự động**   | Không hỗ trợ cài đặt WordPress tự động    | Hỗ trợ cài đặt WordPress với 1-click      | Hỗ trợ cài đặt WordPress với 1-click      | Hỗ trợ cài đặt WordPress với 1-click     |
+| **PHP Versions**                 | Có hỗ trợ nhưng cần cấu hình thủ công    | Hỗ trợ nhiều phiên bản PHP (PHP Switcher) | Hỗ trợ Multi PHP, có thể chọn phiên bản PHP dễ dàng | Hỗ trợ Multi PHP (thủ công)             |
+| **Tối ưu hóa cho WordPress**     | Cần cấu hình thủ công cho tối ưu         | Cần cài thêm plugin để tối ưu cho WordPress | Tích hợp LiteSpeed Web Server tối ưu cho WordPress | Không hỗ trợ tích hợp cache cho WordPress |
+| **Hỗ trợ SSL tự động**           | Có hỗ trợ SSL với Let's Encrypt           | Có hỗ trợ SSL với Let's Encrypt           | Hỗ trợ SSL miễn phí tự động (Let's Encrypt) | Hỗ trợ SSL miễn phí (Let's Encrypt)      |
+| **Công cụ quản lý website**      | Quản lý FTP, email, MySQL                 | Quản lý FTP, MySQL, DNS, Email             | Quản lý FTP, Email, MySQL, Git, DNS        | Quản lý FTP, Email, MySQL, DNS           |
+| **Cache Web**                    | Cần cấu hình thêm                        | Cần cài plugin cache ngoài                | Tích hợp OpenLiteSpeed (công cụ cache hiệu quả) | Không hỗ trợ tích hợp cache cho WordPress |
+| **Backup tự động**               | Có hỗ trợ backup thủ công và tự động      | Hỗ trợ backup lên Google Drive, FTP, S3    | Hỗ trợ backup tự động vào các dịch vụ cloud như Google Drive, FTP, S3 | Hỗ trợ backup tự động                    |
+| **Plugin hỗ trợ WordPress**      | Hỗ trợ cài đặt plugin thủ công            | Hỗ trợ plugin từ App Store                | Hỗ trợ các công cụ bổ sung để tối ưu WordPress (e.g., Redis, Memcached) | Cần cài plugin bên ngoài                 |
+| **Giao diện người dùng**         | Giao diện đơn giản, dễ sử dụng            | Giao diện dễ sử dụng, hỗ trợ nhiều công cụ | Giao diện trực quan, hỗ trợ nhiều tính năng cho WordPress | Giao diện đơn giản, nhưng ít tính năng hỗ trợ WordPress |
+
+---
+
+**Tính năng nổi bật riêng của từng Control Panel**:
+- **DirectAdmin**: Dù không có hỗ trợ cài đặt WordPress tự động, nhưng DirectAdmin vẫn được đánh giá cao về tính ổn định và khả năng tùy chỉnh cấu hình.
+- **aaPanel**: Là một lựa chọn thân thiện với người dùng mới, với giao diện dễ sử dụng và hỗ trợ nhiều công cụ tích hợp sẵn để cài đặt và tối ưu WordPress. Cung cấp khả năng backup lên Google Drive và Amazon S3.
+- **CyberPanel**: Là lựa chọn lý tưởng cho những ai muốn tối ưu hóa website với OpenLiteSpeed, rất phù hợp cho các website WordPress vì tốc độ và hiệu suất. Hỗ trợ tự động gia hạn SSL miễn phí với Let's Encrypt, rất dễ dàng trong việc cài đặt và quản lý.
+- **VestaCP**: Mặc dù có giao diện đơn giản và dễ sử dụng, VestaCP thiếu hỗ trợ các tính năng tối ưu hóa WordPress, tuy nhiên, nó vẫn là lựa chọn tốt cho những ai cần một panel miễn phí với các tính năng cơ bản.
+
+---
+
+**Lưu ý**: Tùy vào yêu cầu và mục tiêu của bạn (ví dụ: nếu bạn ưu tiên tối ưu hóa cho WordPress hoặc dễ dàng quản lý nhiều website), các Control Panel sẽ có những điểm mạnh riêng. CyberPanel có thể là lựa chọn tối ưu cho WordPress, đặc biệt với việc tích hợp OpenLiteSpeed và tính năng tự động gia hạn SSL.
