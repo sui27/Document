@@ -1,6 +1,6 @@
 # Tổng hợp các Server Control Panel phổ biến
 
-## 1. **DirectAdmin**
+## 1. **DirectAdmin:2222**
 - **Khái niệm**: DirectAdmin là một control panel phổ biến, dễ sử dụng với giao diện trực quan, giúp quản trị web hosting hiệu quả.
 - **Yêu cầu hệ thống**:
   - Processor: Tối thiểu 500 MHz.
@@ -20,7 +20,7 @@
 
 ---
 
-## 2. **aaPanel**
+## 2. **aaPanel:8888**
 - **Khái niệm**: aaPanel là phiên bản quốc tế của BAOTA Panel, giúp quản lý server qua giao diện GUI đơn giản.
 - **Yêu cầu hệ thống**:
   - Hỗ trợ các hệ điều hành CentOS, Debian, Ubuntu.
@@ -36,7 +36,7 @@
 
 ---
 
-## 3. **CyberPanel**
+## 3. **CyberPanel:8090**
 - **Khái niệm**: Control panel miễn phí sử dụng OpenLiteSpeed làm web server, hỗ trợ tiếng Việt.
 - **Ưu điểm**:
   - Giao diện hiện đại, dễ sử dụng.
@@ -51,7 +51,7 @@
 
 ---
 
-## 4. **VestaCP**
+## 4. **VestaCP:8083**
 - **Khái niệm**: Control panel mã nguồn mở miễn phí, dễ cài đặt và cấu hình.
 - **Ưu điểm**:
   - Miễn phí, giao diện đơn giản.
@@ -65,18 +65,18 @@
 
 ---
 
-## 5. **So sánh các Server Control Panel**
-| Tiêu chí                          | DirectAdmin      | aaPanel            | CyberPanel         | VestaCP          |
-|-----------------------------------|------------------|--------------------|--------------------|------------------|
-| Miễn phí                         | Không            | Có                 | Có/Một miền miễn phí | Có              |
-| Web server mặc định              | Apache           | Apache/Nginx       | OpenLiteSpeed      | Apache/Nginx     |
-| Hỗ trợ SSL                       | Có               | Có                 | Có                 | Có               |
-| File Manager                     | Có               | Có                 | Có                 | Không (phải kích hoạt) |
-| Hỗ trợ FTP                       | Có               | Có                 | Có                 | Có               |
-| Hỗ trợ Docker                    | Không            | Có                 | Có                 | Không            |
-| Multi PHP                        | Có (phải build)  | Có                 | Có                 | Có (thủ công)    |
-| Hỗ trợ Git                       | Không            | Không              | Có                 | Không            |
-
+## 5. **So sánh các Server Control Panel**  
+| **Tiêu chí**                     | **DirectAdmin**  | **aaPanel**        | **CyberPanel**     | **VestaCP**       |  
+|-----------------------------------|------------------|--------------------|--------------------|-------------------|  
+| **Miễn phí**                     | Không            | Có                 | Có/Một miền miễn phí | Có               |  
+| **Web server mặc định**          | Apache           | Apache/Nginx       | OpenLiteSpeed      | Apache/Nginx      |  
+| **Hỗ trợ SSL**                   | Có               | Có                 | Có                 | Có                |  
+| **File Manager**                 | Có               | Có                 | Có                 | Không (phải kích hoạt) |  
+| **Hỗ trợ FTP**                   | Có               | Có                 | Có                 | Có                |  
+| **Hỗ trợ Docker**                | Không            | Có                 | Có                 | Không             |  
+| **Multi PHP**                    | Có (phải build)  | Có                 | Có                 | Có (thủ công)     |  
+| **Hỗ trợ Git**                   | Không            | Không              | Có                 | Không             |  
+| **Port mặc định**                | 2222             | 8888               | 8090               | 8083              |  
 ---
 
 ## **Tính năng nổi bật giúp các Control Panel hỗ trợ tốt cho WordPress**
