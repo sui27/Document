@@ -20,7 +20,7 @@
 
 ---
 
-## 2. **aaPanel:8888**
+## 2. **aaPanel:7800**
 - **Khái niệm**: aaPanel là phiên bản quốc tế của BAOTA Panel, giúp quản lý server qua giao diện GUI đơn giản.
 - **Yêu cầu hệ thống**:
   - Hỗ trợ các hệ điều hành CentOS, Debian, Ubuntu.
@@ -76,7 +76,7 @@
 | **Hỗ trợ Docker**                | Không            | Có                 | Có                 | Không             |  
 | **Multi PHP**                    | Có (phải build)  | Có                 | Có                 | Có (thủ công)     |  
 | **Hỗ trợ Git**                   | Không            | Không              | Có                 | Không             |  
-| **Port mặc định**                | 2222             | 8888               | 8090               | 8083              |  
+| **Port mặc định**                | 2222             | 7800               | 8090               | 8083              |  
 ---
 
 ## **Tính năng nổi bật giúp các Control Panel hỗ trợ tốt cho WordPress**
