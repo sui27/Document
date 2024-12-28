@@ -89,5 +89,3 @@ PHP X-Ray giúp theo dõi thời gian thực thi các chức năng PHP để ch�
 - Phân tích các chức năng gây chậm và tối ưu hóa nếu cần.
 
 ---
-
-Tài liệu này tổng hợp chi tiết các tính năng và hướng dẫn từ tài liệu gốc về cPanel và WHM, nhằm giúp người dùng dễ dàng tra cứu và sử dụng.
