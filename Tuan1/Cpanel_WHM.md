@@ -23,6 +23,8 @@ Khi đăng nhập vào giao diện cPanel, người dùng cần nắm rõ bốn 
 - **Bộ lọc thư rác (Spam Filters)**: Quản lý thư rác bằng Apache SpamAssassin™.
 - **Dung lượng email (Email Disk Usage)**: Kiểm tra dung lượng lưu trữ của email.
 - **ASSP Antispam**: Cấu hình bảo vệ chống spam nâng cao.
+- **Global Email filter**: áp dụng rule filter cho toàn bộ email.
+- **Email Filter**: Áp dụng cho 1 email được cấu hình
 
 #### Quản lý Tệp tin
 - **Trình quản lý tệp (File Manager)**: Tải lên, xóa, chỉnh sửa, nén và giải nén tệp. Hỗ trợ hiển thị các tệp ẩn như .htaccess.
