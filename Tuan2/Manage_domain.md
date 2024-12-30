@@ -29,41 +29,37 @@ Việc kiểm tra thông tin domain là rất quan trọng để biết rõ tìn
 ## 3. Các Trạng Thái của Domain ảnh hưởng đến Truy Cập Website
 
 Các trạng thái của domain có thể ảnh hưởng trực tiếp đến khả năng truy cập website. Dưới đây là các trạng thái phổ biến và ảnh hưởng của chúng:
+### 1. **Domain Status (Trạng thái của domain)**
+Các trạng thái này được quản lý bởi ICANN và hiển thị trong WHOIS của domain:
 
-### 1. **Active (Đang hoạt động)**
+- **OK:** Domain hoạt động bình thường, không có hạn chế.
+- **ClientHold / ServerHold:** Domain bị tạm dừng, thường do nhà đăng ký hoặc registry. Website sẽ không truy cập được.
+- **ClientTransferProhibited / ServerTransferProhibited:** Domain không thể được chuyển sang nhà cung cấp khác.
+- **ClientDeleteProhibited / ServerDeleteProhibited:** Domain không thể bị xóa.
+- **ClientUpdateProhibited / ServerUpdateProhibited:** Domain không thể chỉnh sửa thông tin.
+- **PendingDelete:** Domain đang chờ xóa, không thể sử dụng.
+- **PendingTransfer:** Domain đang trong quá trình chuyển đổi giữa các nhà cung cấp.
 
-- **Mô tả**: Domain đang hoạt động bình thường, có các bản ghi DNS chính xác, trỏ đến địa chỉ IP của server và người dùng có thể truy cập website mà không gặp sự cố.
-- **Ảnh hưởng đến truy cập website**: Website có thể được truy cập mà không gặp vấn đề gì.
+### 2. **DNS Status (Trạng thái DNS)**
+- **Active DNS:** Domain được trỏ đến DNS server chính xác, website hoạt động bình thường.
+- **Invalid DNS:** DNS không hợp lệ hoặc không được cấu hình, website không truy cập được.
+- **Propagation:** DNS đang được cập nhật, thường mất từ 24-48 giờ để hoàn thành.
 
-### 2. **Expired (Hết hạn)**
+### 3. **SSL/TLS Certificate Status**
+- **Valid Certificate:** Website sử dụng HTTPS an toàn.
+- **Expired / Invalid Certificate:** Website sẽ hiển thị cảnh báo không an toàn, có thể gây mất lòng tin người dùng.
+- **No Certificate:** Website chỉ sử dụng HTTP, dễ bị tấn công hoặc chặn truy cập.
 
-- **Mô tả**: Tên miền đã hết hạn, nghĩa là người sở hữu chưa gia hạn tên miền. Trong trường hợp này, website sẽ không thể truy cập và có thể nhận thông báo lỗi "Server not found" hoặc "DNS lookup failed".
-- **Ảnh hưởng đến truy cập website**: Website sẽ không khả dụng cho người dùng, và nếu không gia hạn tên miền trong một khoảng thời gian nhất định, bạn sẽ mất quyền sở hữu tên miền này.
+### 4. **Hosting Status**
+- **Active Hosting:** Website được lưu trữ và chạy ổn định.
+- **Suspended Hosting:** Hosting bị tạm ngừng, website sẽ không truy cập được.
+- **No Hosting Configured:** Domain không trỏ tới hosting nào, website không hoạt động.
 
-### 3. **Suspended (Bị tạm ngừng)**
-
-- **Mô tả**: Tên miền bị đình chỉ hoặc tạm ngừng bởi nhà đăng ký, có thể do vi phạm các điều khoản sử dụng hoặc lỗi thanh toán.
-- **Ảnh hưởng đến truy cập website**: Truy cập vào website sẽ bị gián đoạn, và người dùng sẽ không thể vào được website cho đến khi tình trạng này được giải quyết.
-
-### 4. **Redemption Period (Thời gian cứu vãn)**
-
-- **Mô tả**: Sau khi tên miền hết hạn và không được gia hạn trong một khoảng thời gian, domain sẽ chuyển vào trạng thái "Redemption Period". Trong trạng thái này, tên miền vẫn chưa bị xóa khỏi hệ thống nhưng không thể sử dụng và cần phải thanh toán phí phục hồi để lấy lại.
-- **Ảnh hưởng đến truy cập website**: Truy cập vào website sẽ bị gián đoạn, vì domain không hoạt động. Bạn cần phải gia hạn lại domain trong thời gian này để phục hồi tên miền.
-
-### 5. **DNS Propagation (Phân phối DNS)**
-
-- **Mô tả**: Sau khi bạn thay đổi cấu hình DNS (ví dụ, trỏ domain đến một server mới), các thay đổi này sẽ không được cập nhật ngay lập tức. Việc này có thể mất từ vài phút đến 48 giờ để cập nhật trên toàn bộ các máy chủ DNS toàn cầu.
-- **Ảnh hưởng đến truy cập website**: Trong quá trình phân phối DNS, một số người dùng có thể không truy cập được website, hoặc website có thể hiển thị một trang lỗi do tên miền chưa cập nhật đúng.
-
-### 6. **Parked Domain (Tên miền bị đỗ)**
-
-- **Mô tả**: Domain đã được đăng ký nhưng chưa có website hoạt động, hoặc chủ sở hữu chưa tạo website. Thường có một trang đỗ tạm thời hiển thị thông báo hoặc quảng cáo.
-- **Ảnh hưởng đến truy cập website**: Người dùng vẫn có thể truy cập vào tên miền, nhưng họ sẽ không thấy nội dung website thực sự mà chỉ thấy một trang đỗ.
-
-### 7. **Whois Privacy (Bảo vệ thông tin Whois)**
-
-- **Mô tả**: Một số nhà đăng ký cung cấp dịch vụ bảo mật thông tin Whois, giúp ẩn các thông tin cá nhân của chủ sở hữu domain. Điều này giúp bảo vệ quyền riêng tư của chủ sở hữu domain khỏi việc bị lộ thông tin cá nhân.
-- **Ảnh hưởng đến truy cập website**: Trạng thái này không ảnh hưởng đến khả năng truy cập website. Tuy nhiên, nếu có vấn đề pháp lý hoặc tranh chấp, việc ẩn thông tin Whois có thể gây khó khăn trong việc liên hệ với chủ sở hữu domain.
+### 5. **Domain Expiration Status**
+- **Active:** Domain còn thời hạn, website hoạt động bình thường.
+- **Expired:** Domain hết hạn, không thể truy cập được.
+- **Redemption Period:** Domain có thể được khôi phục trong vòng 30 ngày.
+- **PendingDelete:** Domain sẽ bị xóa và mở cho đăng ký mới.
 
 ## 4. Các Công Cụ Kiểm Tra Trạng Thái Domain
 
