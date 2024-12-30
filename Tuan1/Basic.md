@@ -6,7 +6,6 @@
   - Ví dụ: `vietnix.vn`, `google.com`, `facebook.com`.
 
 ### **Thành phần của Domain**
-- **Protocol**: Giao thức (http/https).
 - **Sub-domain**: Phân chia các phần khác nhau của trang web.
   - Ví dụ: `blog.vietnix.vn`, `support.vietnix.vn`.
 - **Second-level Domain (SLD)**: Phần định danh chính của tên miền.
